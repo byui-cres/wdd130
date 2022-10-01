@@ -2,20 +2,23 @@ body {
  /*text-align: center;*/
 }
 
-img {
-  width: 80%;
-}
 p {
   width: 80%;
 }
 a {
   font-size: 1.5em;
+
+}
+a:hover {
+  background-color: white; 
+  color: steelblue;
 }
 img {
   width: 80%;
   display: block;
   margin: 0 auto;;
 }
+
 * {
   border: 2px solid blue;
 }
@@ -32,8 +35,29 @@ img.hero-img{
   margin: 50px auto;
   text-align: center;
  }
- footer, footer p {
+ .inline-block-container{
+  width: 80%;
+  margin: 0 auto;
+ }
+ .inline-block-container img{
+  width: 49%;
+  display: inline-block;
+ }
+ footer{
   width: 80%;
   margin: 10px auto;
 
+ }
+ nav a, footer a{
+  color: white
+ }
+ nav, footer {
+  background-color: steelblue;
+  color:white;
+  padding: 10px;
+ }
+ footer p{
+  width: 80%; 
+  font-size: 20px;
+    margin: 20px auto;
  }
