@@ -7,3 +7,57 @@ body{
 h1,h2 {
     color: #ffffff;
 }
+.header-title:hover {
+ color:#000000;
+}
+* {
+  border: 0px solid blue;
+}
+header, main, footer {
+    width: 500px;
+    margin: 0 auto;
+}
+.top-container {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .top-container .top-text{
+    font-size: 14px;
+  }
+  .top-container .top-name{
+    font-size: 18px;
+  }
+  .white-text {
+    color: #ffffff
+}
+.left-aligned{
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+.left-aligned ul li{
+    list-style: decimal;
+}
+img.profile-photo {
+    width: 200px;
+}
+
+
+.bottom-text {
+    width: 50%;
+    margin: 0 auto;
+}
+.bottom-text h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 34px;
+  }
+footer {
+    margin-top: 50px;
+}
+.footer {
+    width: 70%;
+    margin: 0 auto;
+}
