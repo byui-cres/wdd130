@@ -1,23 +1,26 @@
 body {
- /*text-align: center;*/
-}
-
+ width: 100%;}
 p {
   width: 80%;
 }
 a {
   font-size: 1.5em;
-
+  color: white;
 }
 a:hover {
   background-color: white; 
   color: steelblue;
 }
+nav {
+  background-color: steelblue;
+}
+
 img {
   width: 80%;
   display: block;
   margin: 0 auto;;
 }
+h1 margin: 50px 0;
 /*
 * {
   border: 2px solid blue;
@@ -28,15 +31,20 @@ h1, nav, footer {
 }
 
 img.hero-img{
-  width: 80%;
+  width: 100%;
+}
+.container {
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
 }
  main p {
-  width: 80%;
+  width: 100%;
   margin: 50px auto;
   text-align: center;
  }
  .inline-block-container{
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
  }
  .inline-block-container img{
@@ -44,8 +52,9 @@ img.hero-img{
   display: inline-block;
  }
  footer{
-  width: 80%;
+  width: 100%;
   margin: 10px auto;
+
 
  }
  nav a, footer a{
@@ -58,6 +67,6 @@ img.hero-img{
  }
  footer p{
   width: 80%; 
-  font-size: 20px;
+  font-size: 25px;
     margin: 20px auto;
  }
