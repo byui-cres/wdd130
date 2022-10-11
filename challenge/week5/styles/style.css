@@ -1,0 +1,41 @@
+body{
+    width: 100%;
+    background-color: azure;
+}
+main{
+    width: 1280px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+#banner{
+    text-align: center;
+    width: 1280px;
+    height: 500px;
+    background-image: url("../images/banner-bg-label.jpg");
+}
+h2{
+    font-size: 3rem;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    text-align: center;
+}
+.thumbs-circle{
+    display: inline-flex;
+    border: 1rem solid gray;
+    border-radius: 150px;
+    border-radius: ;
+    width: 20%; 
+    margin: 4rem;
+    overflow: hidden;
+s
+
+}
+.thumbs img{
+    width: 100%
+}
