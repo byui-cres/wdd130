@@ -396,4 +396,30 @@ figure.trip-image img {
     footer {
         margin-top: 25px;
     }
+
+    /* Rates / Dates Page*/
+    section.contents_1 {
+    grid-template-columns: 1fr;
+    }
+    .season-image-right {
+        grid-column: 1/2;
+        grid-row: 1/2;
+      }
+    .season-details-left {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+   
+   section.contents_2 {
+    grid-template-columns: 1fr;
+    }
+    .season-image-left {
+        grid-column: 1/2;
+        grid-row: 1/2;
+      }
+    .season-details-right {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+   
 }
