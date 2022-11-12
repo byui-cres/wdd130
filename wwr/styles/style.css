@@ -210,7 +210,86 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;;
 }
+/* end footer csss */
 
+/* Start Rates and Dates page */
+
+.main-container {
+    margin: 20px;
+    background: #fff;
+}
+article.rates-dates {
+    background: #ccc;
+    padding: 30px;
+    border: 1px solid #262623;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 25px;
+}
+
+section.contents {
+    padding: 25px;
+    border: 1px solid #262623;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1.3fr .7fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.season-details-left {
+    grid-column: 1/3;
+    grid-row: 1/5;
+    display: grid;
+}
+.season-details-left h3.trip-title {
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: auto;
+}
+.season-details-left .dates {
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+.season-details-left .price {
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+
+.season-image-right{
+    grid-column: 3/4;
+    grid-row: 1/5;
+}
+
+.season-image-left {
+    grid-column: 1/2;
+    grid-row: 1/5;
+
+}
+.season-details-right{
+    grid-column: 2/4;
+    grid-row: 1/5;
+    display: grid;
+}
+.season-details-right h3.trip-title {
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: auto;
+}
+.season-details-right .dates {
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+.season-details-right .price {
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+figure.trip-image {
+    margin: 0;
+}
+figure.trip-image img {
+    width: 454px;
+}
+/* End Rates and Dates page */
 
 @media screen and (max-width: 900px) {
     main.home-grid {
@@ -256,4 +335,3 @@ footer .social img {
         margin-top: 25px;
     }
 }
-   
