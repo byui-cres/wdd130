@@ -69,8 +69,16 @@ nav a:hover {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-    background: rgb(58 48 24 / 70%);
+    background: rgb(58 48 24 / 88%);
     height: 230px;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hero-msg h1:hover, #hero-msg h4:hover {
+    color: #99dfe2;
 }
 #hero-msg h4 {
     color: white
