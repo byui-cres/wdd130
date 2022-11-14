@@ -318,6 +318,10 @@ form {
     font-size: 15px;
     color: #fff;
   }
+  .contact-us-button:hover {
+    background-color: #99dfe2;
+    color: #3a3017;
+  }
 
   #feedback {
     background-color: antiquewhite;
