@@ -75,7 +75,7 @@ nav a:hover {
     border-bottom-right-radius: 250px;
     width: 530px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 }
 #hero-msg h1:hover, #hero-msg h4:hover {
     color: #99dfe2;
