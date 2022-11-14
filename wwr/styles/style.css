@@ -319,8 +319,12 @@ form {
     color: #fff;
   }
   .contact-us-button:hover {
-    background-color: #99dfe2;
+    background: #99dfe2;
+    border: 1pc solid #99dfe2;
+    border-radius: 5px;
+    font-size: 15px;
     color: #3a3017;
+
   }
 
   #feedback {
