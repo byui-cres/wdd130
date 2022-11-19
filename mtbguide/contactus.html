@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mountain Biking Guides | Home</title>
+    <title>Contact Us | Mountain Biking Guides</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <div id="content">
+    <div id="page-content">
         <header>
           <a id="logo_link" href="index.html" >
               <img class="logo" src="images/mtb-guide-logos.jpg" alt="Mountain Biking Guides Logo">
           </a>
-          <nav>
+          <nav class="page-nav">
               <a href="index.html">Home</a>
               <a href="mtb-biking-tips.html">Biking Tips</a>
               <a href="mtb-buying-guides.html">Buying Guides</a>
@@ -22,8 +22,33 @@
               <a href="contactus.html">Contact Us</a>
           </nav>
       </header>
+      <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="images/mtb-banner.jpg" alt="Mountain BIking With Friends">
+        </div>
+        <section id="hero-msg">
+            <h1 class="home-title">Contact Us</h1>
+            <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+        </section>
+    </div>
     <main class="home-grid">
-        <h2>This is the Contact Us Page</h2>
+      <div class="container-row">
+          <section class="one-half big">
+            <h2>Contact Us</h2>
+          <form method="post" action="contact.php">
+            <input type="text" name="name" id="name" placeholder=" Name* " required>
+        
+            <input type="email" name="email" id="email" placeholder=" Email* " required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$">
+          
+            <input type="text" name="phone" id="phone" placeholder=" Phone (optional)" autofocus> 
+          
+            <textarea name="message" id="messarea" placeholder=" Message* " required></textarea>
+        
+            <input type="text" name="address" id="address" style="display: none;">
+            <input type="submit" value="Send" id="send">
+          </form>
+          </section>
+      </div>
     </main>
 
     <footer>

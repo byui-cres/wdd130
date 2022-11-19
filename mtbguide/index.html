@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mountain Biking Guides | Home</title>
+    <title>Home | Mountain Biking Guides</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <div id="content">
+    <div id="page-content">
         <header>
           <a id="logo_link" href="index.html" >
               <img class="logo" src="images/mtb-guide-logos.jpg" alt="Mountain Biking Guides Logo">
           </a>
-          <nav>
+          <nav class="page-nav">
               <a href="index.html">Home</a>
               <a href="mtb-biking-tips.html">Biking Tips</a>
               <a href="mtb-buying-guides.html">Buying Guides</a>
@@ -22,8 +22,84 @@
               <a href="contactus.html">Contact Us</a>
           </nav>
       </header>
+      <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="images/mtb-banner.jpg" alt="Mountain BIking With Friends">
+        </div>
+        <section id="hero-msg">
+            <h1 class="home-title">Mountain Biking Guides</h1>
+            <h4>Lorem ipsum is placeholder text commonly used in the graphic</h4>
+        </section>
+    </div>
     <main class="home-grid">
-        <h2>This is the homepage</h2>
+      <div class="container-row">
+        <article>
+          <h2>Mountain Biking Guides</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat.</p>
+
+          <p>Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in suscipit massa vehicula eu.”</p>
+
+          <p>“Rrow itself, let it be sorrow; let him love it; let him pursue it, ishing for its acquisitiendum. Because he will ab hold, uniess but through concer, and also of those who resist. Now a pure snore disturbeded sum dust. He ejjnoyes, in order that somewon, also with a severe one, unless of life.</p>
+
+          <p>May a cusstums offficer somewon nothing of a poison-filled. Until, from a twho, twho chaffinch may also pursue it, not even a lump. But as twho, as a tank; a proverb, yeast; or else they tinscribe nor. Yet yet dewlap bed. Twho may be, let him love fellows of a polecat. Now amour, the, twhose being, drunk, yet twhitch and, an enclosed valley’s always a laugh. In acquisitiendum the Furies are Earth; in (he takes up) a lump vehicles bien.”</p>
+        </article>
+        <aside>
+          <h2>Contact Us</h2>
+          <form method="post" action="contact.php">
+            <input type="text" name="name" id="name" placeholder=" Name* " required>
+        
+            <input type="email" name="email" id="email" placeholder=" Email* " required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$">
+          
+            <input type="text" name="phone" id="phone" placeholder=" Phone (optional)" autofocus> 
+          
+            <textarea name="message" id="messarea" placeholder=" Message* " required></textarea>
+        
+            <input type="text" name="address" id="address" style="display: none;">
+            <input type="submit" value="Send" id="send">
+          </form>
+        </aside>
+      </div> <!-- container-row -->
+      <div class="container-row">
+          <h2>Bike Buying/Repair Guide</h2>
+          <section class="one-half big">
+            <img id="hero-img" src="images/bike-maintenance.jpg" alt="Bike maintenance">
+            <p>Lorem Ipsum doesn’t exist because people think the content is meaningless window dressing, only there to be decorated by designers who can’t be bothered to read.</p>
+            <button>Read more...</button>
+          </section>
+          <section class="one-half small">
+            <img id="hero-img" src="images/bike-restoration-guides.jpg" alt="Bike Restoration">
+            <p>Lorem Ipsum doesn’t exist because people think the content is meaningless window dressing, only there to be decorated by designers who can’t be bothered to read.</p>
+            <button>Read more...</button>
+          </section>
+          <section class="one-half small">
+            <img id="hero-img" src="images/bike-repair-mistakes.jpg" alt="Bike repait mistakes">
+            <p>Lorem Ipsum doesn’t exist because people think the content is meaningless window dressing, only there to be decorated by designers who can’t be bothered to read.</p>
+            <button>Read more...</button>
+          </section>
+          
+      </div>
+      <div class="container-row">
+        <h2>Biking Tips</h2>
+        <section class="one-half big">
+          <img id="hero-img" src="images/7-easy-skills.jpg" alt="Bike 7 Easy Skills">
+          <h3>7 Easy Biking Skills</h3>
+          <p>Lorem Ipsum doesn’t exist because people think the content is meaningless window dressing, only there to be decorated by designers who can’t be bothered to read.</p>
+          <button>Read more...</button>
+        </section>
+        <section class="one-half small">
+          <img id="hero-img" src="images/biking-tips-1.jpg" alt="Bike Tips">
+          <h3>Biking Tips 101</h3>
+          <p>Lorem Ipsum doesn’t exist because people think the content is meaningless window dressing, only there to be decorated by designers who can’t be bothered to read.</p>
+          <button>Read more...</button>
+        </section>
+        <section class="one-half small">
+          <img id="hero-img" src="images/gravel-vs-MTB.jpg" alt="Gravel Vs MTB ">
+          <h3>Gravel Bike vs Mountain Bike</h3>
+          <p>Lorem Ipsum doesn’t exist because people think the content is meaningless window dressing, only there to be decorated by designers who can’t be bothered to read.</p>
+          <button>Read more...</button>
+        </section>
+
+      </div>
     </main>
 
     <footer>
