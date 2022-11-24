@@ -53,10 +53,10 @@ header {
   background: var(--accent2-color);
   border-radius: 35px;
 }
-nav {
-    display: flex;
-    justify-content: space-around;
 
+nav {
+  display: flex;
+  justify-content: flex-end;
 }
 nav a {
   text-align: center;
