@@ -306,3 +306,58 @@ hr.inline {
   background-color:  #f7f7f6;
   overflow: hidden;
 }
+
+
+@media screen and (max-width: 900px) {
+  main.home-grid {
+      display: block;
+  }
+  #hero, .home-grid {
+      display: block;
+      height: auto;
+  }
+  nav, footer {
+      flex-direction: column;
+  }
+  nav a {
+    display: block;
+    padding: 15px;
+    text-align: right;
+  }
+  #hero {
+      margin-top: 0;
+  }
+  #hero-msg {
+      margin-top: 0;
+  }
+  #hero-msg h4 {
+      display: none;
+  }
+  #hero-msg h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+  }
+  .home-title {
+      font-size: 25px;
+      color: #6f7364;
+  }
+  p {
+    color: #262626;
+    font-size: 18px;
+  }
+  .container-row {
+    display: block;
+    margin: 10px auto;
+  }
+  #embed-img {
+    max-width: 100%;
+  }
+  footer {
+      margin-top: 25px;
+  }
+  aside.home-content-white {
+    margin-top: 22px;
+  }
+ 
+}
