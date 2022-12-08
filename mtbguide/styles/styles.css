@@ -243,10 +243,12 @@ footer a {
   border-radius: 20px;
   padding: 20px;
   width: 600px;
+  grid-column: 1/3;
 }
 
 .one-whole.big {
     width: 600px;
+    
 }
 .contact-us input{
   border: 1px solid #ccc;
