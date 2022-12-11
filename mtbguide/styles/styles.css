@@ -68,7 +68,7 @@ header {
   align-self: center;
 }
 .logo {
-  width: 170px
+  width: 170px;
   background: var(--secondary-color);
   margin-left: 40px;
   border: 1px solid #fff;
