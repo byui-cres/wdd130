@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Lato&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -8,7 +8,7 @@
   --accent2-color: #f7f7f6;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
+  --heading-font: "Averia Serif Libre";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -29,13 +29,16 @@ h2 {
   color: var(--secondary-color);
   font-size: 26px;
   font-weight: 800;
+  font-family: --heading-font;
 }
 h3 {
   font-size: 24px;
+  font-family: --heading-font;
 }
 p {
   color: #262626;
   font-size: 22px;
+  font-family: --paragraph-font;
 }
 ul {
   font-size: 20px;
@@ -65,7 +68,7 @@ header {
   align-self: center;
 }
 .logo {
-  width: 170px;
+  width: 170px
   background: var(--secondary-color);
   margin-left: 40px;
   border: 1px solid #fff;
@@ -98,8 +101,16 @@ nav a:hover{
   grid-row: 1/3;
   z-index: -1;
 }
+.hero-img {
+  width: 100%;
+}
 #hero-img {
   width: 100%;
+}
+.embed-img {
+  width: 40%;
+  float: left;
+  padding: 35px;
 }
 #hero-msg {
   grid-column: 1/4;
@@ -164,8 +175,6 @@ aside.home-content-white {
   grid-column: 3/4;
   grid-row: 1/3;
   display: grid;
-  grid-column: 1fr;
-  grid-row: 1fr 1fr;
   grid-gap: 10px;
   border-radius: 10px;
   padding: 10px;
@@ -283,7 +292,7 @@ hr.inline {
   background-color: #f7f7f6;
   color: #000000;
   cursor: pointer;
-  padding: 0px 0px 0px 25px;
+  padding: 10px 0px 10px 25px;
   width: 100%;
   border: none;
   text-align: left;
@@ -306,8 +315,14 @@ hr.inline {
   background-color:  #f7f7f6;
   overflow: hidden;
 }
-
-
+.iframe_big {
+  width: 100%;
+  height: 630px;
+}
+.iframe_small {
+  width: 100%;
+  height: 320px;
+}
 @media screen and (max-width: 900px) {
   main.home-grid {
       display: block;
